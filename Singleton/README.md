@@ -11,6 +11,8 @@ getInstance()が呼びだされた時に、Sigletonクラスが初期化され�
 - Singleton(Singleton.java)  
 Singletonパターンは、Singletonの役のみ。唯一のインスタンスを得るための、staticメソッドを持っている。
 
+![Singleton](./plantuml/Singleton.png)
+
 ## メリット
 - インスタンスが１個しか存在しないことを保証できる。
 

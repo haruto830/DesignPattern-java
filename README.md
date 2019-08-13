@@ -11,7 +11,7 @@
 - Command
 - Composite
 - Decorator
-- Facade
+- [Facade](./Facade)
 - FactoryMethod
 - Flyweight
 - Interpreter
