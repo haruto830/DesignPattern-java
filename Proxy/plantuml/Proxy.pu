@@ -1,0 +1,21 @@
+@startuml
+
+Client o-right-> Subject : Uses
+Proxy -up-|> Subject
+RealSubject -up-|> Subject
+Proxy o-right-> RealSubject : Uses
+
+Subject : request1()
+Subject : request2()
+Subject : request3()
+
+Proxy : realSubject
+Proxy : request1()
+Proxy : request2()
+Proxy : request3()
+
+RealSubject : request1()
+RealSubject : request2()
+RealSubject : request3()
+
+@enduml
