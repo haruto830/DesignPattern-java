@@ -20,7 +20,7 @@
 - Memento
 - Observer
 - Prototype
-- Proxy
+- [Proxy](./Proxy)
 - [Singleton](./Singleton)
 - State
 - Strategy
