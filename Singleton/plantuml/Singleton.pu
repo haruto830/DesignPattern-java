@@ -1,0 +1,7 @@
+@startuml
+
+Singleton : - {static}singleton
+Singleton : - Singleton()
+Singleton : + {static}getInstance()
+
+@enduml
