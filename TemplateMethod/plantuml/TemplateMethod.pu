@@ -1,0 +1,13 @@
+@startuml
+AbstractClass <|-- ConcreteClass
+
+AbstractClass : method1()
+AbstractClass : method2()
+AbstractClass : method3()
+AbstractClass : templateMethod()
+
+ConcreteClass : method1()
+ConcreteClass : method2()
+ConcreteClass : method3()
+
+@enduml
