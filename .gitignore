@@ -15,3 +15,5 @@ out/
 .project
 .classpath
 .settings
+
+/bin/

@@ -1,0 +1,16 @@
+@startuml
+
+class Client
+
+Client -down-> Facade  : Uses
+Facade --> ClassA
+Facade --> ClassB
+Facade --> ClassC
+Facade --> ClassD
+
+ClassA --> ClassB
+ClassB -right-> ClassC
+ClassC -left-> ClassB
+ClassD --> ClassC
+
+@enduml
