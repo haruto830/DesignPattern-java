@@ -24,6 +24,6 @@
 - Singleton
 - State
 - Strategy
-- TemplateMethod[./TemplateMethod]
+- [TemplateMethod](./TemplateMethod)
 - Visitor
 
